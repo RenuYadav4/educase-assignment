@@ -1,0 +1,19 @@
+.inner-container h1 {
+    font-size: 27.5px;
+}
+
+.inner-container p {
+    margin-top: 12px;
+    font-size: larger;
+    color: grey;
+}
+.login {
+    color: rgb(55, 54, 54);
+    background: #c9bbf6;
+}
+.button-container {
+    margin-top: 29px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

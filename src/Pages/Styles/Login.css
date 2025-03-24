@@ -1,0 +1,39 @@
+.login-top{
+    padding: 36px 17px;
+    word-wrap: break-word;
+    max-width: 200px;
+}
+.login-top h2{
+font-size: xx-large;
+}
+
+ .paragraph{
+   margin-top: -20px;
+   margin-left: 17px;
+    word-wrap: break-word;
+    max-width: 276px;
+    color: rgb(130, 129, 129);
+    font-size: 20px;
+    line-height: 25px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 17px;
+}
+.login-only{
+    margin: 0 17px;
+    background: rgb(206, 205, 206);
+    color: #fff;
+}
+@media(max-width:768px){
+    .login-top h2{
+        font-size: x-large;
+    }
+    .paragraph{
+        font-size: 15px;
+        max-width: 200px;
+        line-height: 19px;
+    }
+}

@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import '../Pages/Styles/create.css'
 import { useNavigate } from 'react-router-dom'
 
-const Create = () => {
+const CreateProfile = () => {
     const [formData, setFormData] = useState({ name: "", phone: "", email: "", password: "", company: "" });
     const navigate = useNavigate();
 
@@ -30,9 +30,9 @@ const Create = () => {
                                 placeholder=""
                                 onChange={handleChange}
                                 required
-                                className='input-field' 
-                                />
-                             <label className='input-label'>Full Name</label>
+                                className='input-field'
+                            />
+                            <label className='input-label'>Full Name</label>
                         </div>
                         <div className='input-container'>
                             <input
@@ -52,7 +52,7 @@ const Create = () => {
                                 onChange={handleChange}
                                 required
                                 className='input-field' />
-                             <label className='input-label'>Email address</label>
+                            <label className='input-label'>Email address</label>
                         </div>
                         <div className='input-container'>
                             <input
@@ -108,4 +108,4 @@ const Create = () => {
     )
 }
 
-export default Create;
+export default CreateProfile

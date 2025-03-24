@@ -48,7 +48,7 @@ button {
 @media(max-width:768px) {
     .mobile-container {
         width: 293px;
-        height: 95vh;
+        height: 99vh;
     }
 
     .inner-container h1 {
@@ -64,4 +64,25 @@ button {
         width: 220px;
         font-size: small;
     }
+    
+}
+@media(max-width: 1024px){
+    .mobile-container {
+        width: 290px;
+        height: 97vh;
+    }
+    .inner-container h1 {
+        font-size: 22px;
+    }
+
+    .inner-container p {
+        font-size: 15.7px;
+    }
+
+    button {
+        height: 14px;
+        width: 220px;
+        font-size: small;
+    }
+    
 }

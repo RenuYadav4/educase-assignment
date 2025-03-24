@@ -2,9 +2,9 @@ import './App.css'
 import Home from './Pages/Home'
 import { BrowserRouter as Router, Routes,Route } from 'react-router-dom'
 import './Styles/global.css'
-import Userprofile from './Pages/Userprofile'
 import Create from './Pages/create'
 import Login from './Pages/login'
+import Userprofile from './Pages/Userprofile'
 
 function App() {
 

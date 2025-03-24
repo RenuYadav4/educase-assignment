@@ -1,6 +1,6 @@
 import React from 'react'
 import { useLocation } from 'react-router-dom'
-import '../Pages/Styles/userprofile.css'
+import '../Pages/Styles/Userprofile.css'
 
 const Userprofile = () => {
     const location = useLocation();
@@ -21,11 +21,11 @@ const Userprofile = () => {
                     </div>
                 </div>
                 <p className='description'>Lorem Ipsum Dolor Sit Amet, Consetetur Sadispscing
-                        Elits, Sed Diam Nonumy Eirmod Tempor Invidunt Ut
-                        Labore Et Dolor Magna Aliquyam Erat, Sed Diam
+                    Elits, Sed Diam Nonumy Eirmod Tempor Invidunt Ut
+                    Labore Et Dolor Magna Aliquyam Erat, Sed Diam
                 </p>
-                    <hr />
-                    <hr className='bottom'/>
+                <hr />
+                <hr className='bottom' />
             </div>
         </div>
     )

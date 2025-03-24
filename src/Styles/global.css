@@ -48,7 +48,7 @@ button {
 @media(max-width:768px) {
     .mobile-container {
         width: 293px;
-        height: 97vh;
+        height: 95vh;
     }
 
     .inner-container h1 {

@@ -86,7 +86,7 @@ input[type="radio"] {
 }
 
 
-@media(max-width:1024px) {
+@media(max-width:1080px) {
     .submit-btn {
         margin-top: 10.5vh;
     }

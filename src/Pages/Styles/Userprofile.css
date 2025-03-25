@@ -1,7 +1,7 @@
 .top{
     background: #fff;
     font-size: larger;
-    padding: 28px 15px 18px;
+    padding: 20px 15px 18px;
     font-family: sans-serif;
     box-shadow: 0px 1px 10px rgba(184, 180, 180, 0.1);
 }
@@ -28,7 +28,7 @@ img{
     margin: 16px 0;
   }
   .bottom{
-    margin: 61vh 0;
+    margin: 45vh 0;
   }
 @media(max-width:768px){
     img{
@@ -52,4 +52,13 @@ img{
         word-wrap: break-word;
         max-width: 180px;
     }
+}
+
+@media(max-width:1024px){
+.top{
+    padding: 66px 15px 18px;
+}
+.bottom{
+    margin: 41vh 0;
+  }
 }

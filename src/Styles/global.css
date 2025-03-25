@@ -7,14 +7,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 90vh;
-    /* width: 100vh; */
+    height: 89vh;
     overflow: hidden;
 }
 
 .mobile-container {
-    width: 300px;
-    height: 90vh;
+    width: 400px;
+    height: 100%;
     background-color: rgb(247, 247, 253);
     position: relative;
     flex-shrink: 0;
@@ -24,8 +23,8 @@
     position: absolute;
     word-wrap: break-word;
     max-width: 250px;
-    bottom: 25px;
-    padding: 18px;
+    bottom: 40px;
+    padding: 20px;
     font-family: sans-serif;
     display: flex;
     flex-direction: column;
@@ -35,8 +34,8 @@ button {
     all: unset;
     background: #7659d0;
     height: 25px;
-    padding: 10px 20px;
-    width: 295px;
+    padding: 13px 22px;
+    width: 320px;
     max-width: 340px;
     border-radius: 0.5rem;
     color: #f8ecec;
@@ -48,7 +47,7 @@ button {
 @media(max-width:768px) {
     .mobile-container {
         width: 293px;
-        height: 90vh;
+        height: 150%;
     }
 
     .inner-container h1 {

@@ -10,7 +10,7 @@
     top: 50%;
     left: 10px;
     transform: translateY(-160%);
-    background:rgb(247, 247, 253);;
+    background: rgb(247, 247, 253);
     padding: 0 5px;
     color: #7659d0;
     transition: 0.3s ease-in-out;
@@ -19,7 +19,7 @@
 }
 
 .submit-btn {
-    margin-top: 27.7vh;
+    margin-top: 15vh;
 }
 
 form {
@@ -69,21 +69,30 @@ input[type="radio"] {
         font-size: 13px;
         word-wrap: break-word;
         max-width: 150px;
-    }
+        margin: 60px 18px  !important;
 
-    .submit-btn {
-        margin-top: 16.7vh;
     }
 
     .input-field {
         padding: 8px;
     }
-    .input-label{
+
+    .submit-btn {
+        margin-top: 4vh !important; 
+    }
+    .input-label {
         font-size: 12px;
     }
 }
-@media(max-width:1024px){
-    .submit-btn{
-        margin-top: 12vh;
+
+
+@media(max-width:1024px) {
+    .submit-btn {
+        margin-top: 10.5vh;
+    }
+
+    .heading {
+        margin: 70px 18px;
+
     }
 }

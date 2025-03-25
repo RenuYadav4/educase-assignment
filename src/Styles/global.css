@@ -23,7 +23,7 @@
     position: absolute;
     word-wrap: break-word;
     max-width: 250px;
-    bottom: 40px;
+    bottom: 20px;
     padding: 20px;
     font-family: sans-serif;
     display: flex;
@@ -33,7 +33,7 @@
 button {
     all: unset;
     background: #7659d0;
-    height: 25px;
+    height: 16px;
     padding: 13px 22px;
     width: 320px;
     max-width: 340px;
@@ -46,10 +46,9 @@ button {
 
 @media(max-width:768px) {
     .mobile-container {
-        width: 293px;
+        width: 360px;
         height: 150%;
     }
-
     .inner-container h1 {
         font-size: 24px;
     }
@@ -60,16 +59,25 @@ button {
 
     button {
         height: 18px;
-        width: 220px;
         font-size: small;
+    }
+    .inner-container{
+        bottom: 60px;
     }
     
 }
-@media(max-width: 1024px){
+@media(max-width: 1080px){
+    .inner-container{
+        bottom: 50px;
+    }
+    .main-container{
+        height: 80vh;
+    }
     .mobile-container {
-        width: 290px;
+        width: 350px;
         height: 97vh;
     }
+
     .inner-container h1 {
         font-size: 22px;
     }
@@ -80,7 +88,7 @@ button {
 
     button {
         height: 14px;
-        width: 220px;
+        width: 270px;
         font-size: small;
     }
     

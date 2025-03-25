@@ -36,11 +36,14 @@ form{
         max-width: 200px;
         line-height: 19px;
     }
+    .login-top{
+        padding: 70px 17px;
+    }
     
 }
 @media(max-width:1024px){
     .login-top{
-        padding: 70px 17px;
+        padding: 105px 17px;
         word-wrap: break-word;
         max-width: 200px;
     }

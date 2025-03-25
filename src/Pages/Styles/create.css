@@ -88,11 +88,10 @@ input[type="radio"] {
 
 @media(max-width:1080px) {
     .submit-btn {
-        margin-top: 10.5vh;
+        margin-top: 1.5vh;
     }
 
     .heading {
-        margin: 70px 18px;
-
+        margin: 100px 18px;
     }
 }

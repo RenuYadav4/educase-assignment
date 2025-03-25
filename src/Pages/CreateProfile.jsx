@@ -22,7 +22,7 @@ const CreateProfile = () => {
                     <div className="heading">
                         <h2>Create your PopX account</h2>
                     </div>
-                    <form onSubmit={handleSubmit}>
+                    <form className='create-form' onSubmit={handleSubmit}>
                         <div className='input-container'>
                             <input
                                 type="text"

@@ -17,13 +17,15 @@ font-size: xx-large;
     line-height: 25px;
 }
 
-form{
+.login-form{
     display: flex;
     flex-direction: column;
-    padding: 17px;
+    padding: 20px 10px ;
+    gap: 25px;
 }
 .login-only{
-    margin: 0 17px;
+    margin: 0 11px;
+    padding: 12px 30px;
     background: rgb(206, 205, 206);
     color: #fff;
 }
@@ -43,11 +45,15 @@ form{
 }
 @media(max-width:1024px){
     .login-top{
-        padding: 105px 17px;
+        padding: 65px 17px;
         word-wrap: break-word;
         max-width: 200px;
     }
     .paragraph{
-        margin-top: -65px;
+        margin-top: -50px;
+    }
+    .login-only{
+        padding: 12px 25px;
+
     }
 }

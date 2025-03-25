@@ -15,7 +15,7 @@ const Login = () => {
                         consectetur adipiscing elit,
                     </p>
                 </div>
-                <form>
+                <form className='login-form'>
                     <div className="input-container">
                         <input type="email" name="email" placeholder=""  className='input-field'/>
                         <label className='input-label'>Email Address</label>

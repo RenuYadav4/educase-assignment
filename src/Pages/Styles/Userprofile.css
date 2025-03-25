@@ -28,9 +28,10 @@ img{
     margin: 16px 0;
   }
   .bottom{
-    margin: 45vh 0;
+    margin: 50vh 0;
   }
 @media(max-width:768px){
+   
     img{
         height: 62px;
         width: 90px;
@@ -56,9 +57,9 @@ img{
 
 @media(max-width:1024px){
 .top{
-    padding: 90px 15px 18px;
+    padding: 50px 15px 18px;
 }
 .bottom{
-    margin: 38vh 0;
+    margin: 45vh 0;
   }
 }

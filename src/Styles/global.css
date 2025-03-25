@@ -59,6 +59,7 @@ button {
 
     button {
         height: 18px;
+        width: 300px;
         font-size: small;
     }
     .inner-container{
@@ -71,10 +72,10 @@ button {
         bottom: 50px;
     }
     .main-container{
-        height: 80vh;
+        height: 90vh;
     }
     .mobile-container {
-        width: 350px;
+        width: 300px;
         height: 97vh;
     }
 
@@ -88,7 +89,7 @@ button {
 
     button {
         height: 14px;
-        width: 270px;
+        width: 230px;
         font-size: small;
     }
     
